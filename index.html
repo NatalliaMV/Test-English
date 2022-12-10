@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="block-form-wrap">
+    <form class="block-form">
+        <h1>English Level Test</h1>
+        <div class="engTest">
+            <label class="question">1. How old are you?</label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="one">
+                <span class="answer_text">I have 27 years old</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="one">
+                <span class="answer_text">I have 27 years</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="one">
+                <span class="answer_text">I am fine</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="one" id="answerOne">
+                <span class="answer_text true">I am 27 years old</span>   
+            </label>
+        </div>
+        <div class="engTest">
+            <label class="question">2. He went to the Stadium .....</label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="two">
+                <span class="answer_text">with taxi</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="two" id="answerTwo">
+                <span class="answer_text true">by taxi</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="two">
+                <span class="answer_text">in taxi</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="two">
+                <span class="answer_text">on taxi</span>   
+            </label>
+        </div>
+        <div class="engTest">
+            <label class="question">3. How long have you been living in London?</label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="three" id="answerThree">
+                <span class="answer_text true">for 7 years</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="three">
+                <span class="answer_text">at least 7 years</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="three">
+                <span class="answer_text">since 7 years</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="three">
+                <span class="answer_text">7 years ago</span>   
+            </label>
+        </div>
+        <div class="engTest">
+            <label class="question">4. We haven't got ..... money.</label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="four">
+                <span class="answer_text">a lot</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="four">
+                <span class="answer_text">some</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="four" id="answerFour">
+                <span class="answer_text true">any</span>
+            </label>
+            <label class="answer">
+                <input class="check-box" type="radio" name="four">
+                <span class="answer_text">many</span>   
+            </label>
+        </div>
+        
+        <button type="submit" class="btn">Test result</button>
+        <p id="show"></p>
+    </form>
+</section>
+
+
+<script src="index.js"></script>  
+</body>
+</html>
